@@ -377,7 +377,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5022784008994957043, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
   m_PrefabInstance: {fileID: 1575672998}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &766185436
+--- !u!114 &766185439
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -389,7 +389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d8372388937ca444a48f89fcf5aa583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FPCamera: {fileID: 0}
+  FPCamera: {fileID: 1402067959}
   range: 100
 --- !u!1001 &796980572
 PrefabInstance:
@@ -1458,6 +1458,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 4620f3c93dca8c94c9124d8ba443f43e, type: 3}
   m_PrefabInstance: {fileID: 1393411949}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1402067959 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 2000000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+  m_PrefabInstance: {fileID: 1575672998}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1482966090
 PrefabInstance:

@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
+    [SerializeField] int damage = 10;
     [SerializeField] Camera FPCamera;
     [SerializeField] float range = 100.0f;
 
@@ -20,8 +21,20 @@ public class Weapon : MonoBehaviour
     private void Shoot()
     {
         RaycastHit hit;
-        Physics.Raycast(FPCamera.transform.position, FPCamera.transform.forward, out hit, range);
+        if(Physics.Raycast(FPCamera.transform.position, FPCamera.transform.forward, out hit, range))
+        {
+            Debug.Log(hit.transform.name);
+            //TODO: add some hit effect
+            EnemyHealth target = hit.transform.GetComponent<EnemyHealth>();
+            if (target == null) return;
 
-        Debug.Log(hit.transform.name);
+            target.TakeDamage(damage);
+            //call a method on enemyhealth to decrease enemy health
+        }
+        else
+        {
+            return;
+        }
+
     }
 }

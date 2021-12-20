@@ -109,6 +109,7 @@ GameObject:
   - component: {fileID: 8330989356155753912}
   - component: {fileID: 8330989356155753915}
   - component: {fileID: 8330989356155753892}
+  - component: {fileID: 4293973392507697121}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -230,3 +231,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   chaseRange: 5
+--- !u!114 &4293973392507697121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8330989356155753914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 375429b5a6a3d644b8e98f8fc01f0d4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
