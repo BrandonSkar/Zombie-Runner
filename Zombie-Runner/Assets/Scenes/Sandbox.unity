@@ -389,8 +389,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d8372388937ca444a48f89fcf5aa583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 10
   FPCamera: {fileID: 1402067959}
   range: 100
+  muzzleFlash: {fileID: 1538054398}
 --- !u!1001 &796980572
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1600,6 +1602,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 3681543e5b0f59742b73073cb379cdc6, type: 3}
   m_PrefabInstance: {fileID: 1485452651}
   m_PrefabAsset: {fileID: 0}
+--- !u!198 &1538054398 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7310196125862180153, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+  m_PrefabInstance: {fileID: 1575672998}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1561056263
 GameObject:
   m_ObjectHideFlags: 0
@@ -1742,7 +1749,24 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 13400000, guid: 47d11137dd1a5f648a79f8b51ed8a7e8, type: 2}
-    m_RemovedComponents: []
+    - target: {fileID: 3642921647886618554, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: ShapeModule.angle
+      value: 89.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 8729847517466350198, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.028
+      objectReference: {fileID: 0}
+    - target: {fileID: 8729847517466350198, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.507
+      objectReference: {fileID: 0}
+    - target: {fileID: 8729847517466350198, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.485
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6611684047915998242, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
 --- !u!1001 &1683085891
 PrefabInstance:
