@@ -2525,6 +2525,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: field of view
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 11400006, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -2533,6 +2537,14 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 13400000, guid: 47d11137dd1a5f648a79f8b51ed8a7e8, type: 2}
+    - target: {fileID: 2051637596098017983, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: FOVzoom
+      value: 
+      objectReference: {fileID: 1402067959}
+    - target: {fileID: 2051637596098017983, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: fpsCamera
+      value: 
+      objectReference: {fileID: 1402067959}
     - target: {fileID: 3642921647886618554, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: ShapeModule.angle
       value: 89.26
