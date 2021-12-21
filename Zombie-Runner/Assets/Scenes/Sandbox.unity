@@ -425,7 +425,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 386303282}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1140751740}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &386303282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1414,8 +1426,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b416c3d112322145b696e62d22fd2d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playAgainButton: {fileID: 0}
-  quitButton: {fileID: 0}
 --- !u!1001 &1169500844
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1567,7 +1577,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1188151427}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1140751740}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: ReloadGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1188151427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2519,6 +2541,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AK
       objectReference: {fileID: 0}
+    - target: {fileID: 5325082167724622692, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: gameOverCanvas
+      value: 
+      objectReference: {fileID: 1480924922}
     - target: {fileID: 7291166540025302880, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: FPCamera
       value: 
