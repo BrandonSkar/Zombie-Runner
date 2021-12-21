@@ -2541,10 +2541,6 @@ PrefabInstance:
       propertyPath: FOVzoom
       value: 
       objectReference: {fileID: 1402067959}
-    - target: {fileID: 2051637596098017983, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: fpsCamera
-      value: 
-      objectReference: {fileID: 1402067959}
     - target: {fileID: 3642921647886618554, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: ShapeModule.angle
       value: 89.26
@@ -2557,10 +2553,6 @@ PrefabInstance:
       propertyPath: gameOverCanvas
       value: 
       objectReference: {fileID: 1480924922}
-    - target: {fileID: 7291166540025302880, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: FPCamera
-      value: 
-      objectReference: {fileID: 1402067959}
     - target: {fileID: 8729847517466350198, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.028
