@@ -96,6 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 30
+  timeBetweenShots: 1.2
   FPCamera: {fileID: 0}
   range: 20
   muzzleFlash: {fileID: 3515409791153075071}

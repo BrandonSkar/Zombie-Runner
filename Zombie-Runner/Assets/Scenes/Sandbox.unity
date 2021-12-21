@@ -123,6 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: ce929fc0b2b8bfd40b175b8148f9e46c, type: 2}
+--- !u!114 &72170000 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11400004, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+  m_PrefabInstance: {fileID: 1575672998}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81c9795a96c094f4cbde4d65546aa9b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &72170003 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
@@ -2537,10 +2548,22 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 13400000, guid: 47d11137dd1a5f648a79f8b51ed8a7e8, type: 2}
+    - target: {fileID: 309206108949494432, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2051637596098017983, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: FOVzoom
       value: 
       objectReference: {fileID: 1402067959}
+    - target: {fileID: 2914023585992436731, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: fpsCamera
+      value: 
+      objectReference: {fileID: 1402067959}
+    - target: {fileID: 2914023585992436731, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 72170000}
     - target: {fileID: 3642921647886618554, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: ShapeModule.angle
       value: 89.26
@@ -2553,6 +2576,18 @@ PrefabInstance:
       propertyPath: gameOverCanvas
       value: 
       objectReference: {fileID: 1480924922}
+    - target: {fileID: 6571688780222328416, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: fpsCamera
+      value: 
+      objectReference: {fileID: 1402067959}
+    - target: {fileID: 6571688780222328416, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 72170000}
+    - target: {fileID: 8218995160953286369, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8729847517466350198, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.028
