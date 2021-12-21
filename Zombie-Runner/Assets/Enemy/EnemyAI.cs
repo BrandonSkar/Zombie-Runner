@@ -6,10 +6,10 @@ using UnityEngine.AI;
 
 public class EnemyAI : MonoBehaviour
 {
-    Transform target;
     [SerializeField] float chaseRange = 5.0f;
     [SerializeField] float turnSpeed = 5.0f;
 
+    Transform target;
     NavMeshAgent navMeshAgent;
     float distanceToTarget = Mathf.Infinity;
     bool isProvoked = false;
